@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    width: 1150px;
+	margin: auto;
+    padding: 0;
+    font-size: 15px;
+	background-color: white-space;
+	}
+/* CSS navigation bar */
+nav{
+	margin: 0;
+	background-color: #A00000;
+	clear: both;
+}
+/* navigation bar color when mouse over */
+
+/* CSS unorder list */
+nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* set item in menu */
+nav li{
+	margin-right: 0px;
+	margin-left: 0;
+	width: auto;
+}
+/* set menu item on the left */
+nav > ul > li {
+    float: left;
+}
+/* set a in navigation bar */
+nav ul > li > a{
+	display: block;
+	margin: 0;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration:none;
+	color: white;
+	font-style: bold;
+	text-transform: uppercase;
+}
+/* set hidden sub menu */
+nav ul > li  ul{
+	display:none;
+}
+/* change background color when mouse over item */
+nav a:hover{
+	background-color: #575754;
+}
+
+/* set menu item when mouse over */
+nav li:hover > ul{
+	display:block;
+	position:absolute;
+	background-color: red; 
+}
+/* set color when mouse over */
+nav li:hover{
+	background-color: red;
+}
+/* set arrow down in item having sub menu*/
+nav ul > li.submenu{
+	background-image: url(../Images/arrow_down.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+/* set section*/
+div#team{
+	margin-top: 5px;
+	float: left;
+	width: 600px;
+	height: 400px;
+	border: 2px solid grey;
+}
+div#rightside{
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 536px;
+	max-height: 400px;
+	/*border: 2px solid grey;*/
+}
+/* set sections in content */
+div#about{
+	width: 100%;
+	height: 200px;
+	border: 2px solid grey;
+}
+/* set bottom of right side - bottom of about section*/
+div#bottom_rightside{
+	width: 100%;
+	height: 190px;
+	margin-top: 5px;
+	border: 2px solid grey;
+}
+/* set each sub section*/
+div#achievement{
+	float: left;
+	margin-right:4px;
+	width: 264px;
+	height: 190px;
+	border-right: 2px solid grey;
+}
+div#stadium{
+	float: left;
+	width: 264px;
+	height: 190px;
+	border-left: 2px solid grey;
+}
+/* set footer */
+div#footer{
+	float:left;
+	margin-top: 5px;
+	width:100%;
+	height: 100px;
+	color: white;
+	background-image: url(../Images/footer.jpg);
+}
+/* set margin for information in footer*/
+#author{
+	margin-left: 20px;
+}
+/*set back link*/
+.back_link{
+	margin-top: 10px;
+	text-decoration: none;
+}
+/* set title that goes with image */
+.title > p a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+/* change color of title when mouse hover*/
+.title > p a:hover{
+	color: blue;
+}
+/* change title color when visited or active*/
+.title > a:visited, a:active{
+	color: white;
+}
+.title{
+	margin: 0;
+	background-color: #303030;
+}
+
+/* set the main section of sub page*/
+.subpage_content{
+	margin-top: 5px;
+	width: 100%;
+	height: auto;
+} 
+/* set the main content section */
+.main_content{
+	float: left;
+	width: 800px;
+	height: auto;
+	border: 2px dotted grey;
+}
+/* set the side sections in subpages*/
+.side_contents{
+	float: left;
+	width:335px;
+	height: auto;
+	margin-left: 5px;
+	border: 2px dotted grey;
+} 
+/* format paragraph in subpages */
+.paragraph{
+	margin-left:30px;
+	margin-right: 10px;
+	font-family: Arial;
+	font-size: 100%;
+	padding-bottom: 10px;
+	line-height: 25px;
+	text-align: justify;
+}
+/* set title of each page*/
+h1{
+	color: red;
+	text-align: center;
+	border-bottom: 4px solid red;
+}
+/* located symbol arrow in the left*/
+.symbol{
+	float: left;
+}
+/* set sub title in each page*/
+h2{
+	color: blue;
+	font-style: bold;
+	text-decoration: none;
+	margin-left: 30px;
+}
+/* set image in page*/
+.image{
+	width: 500px;
+	height: 300px;
+	margin-left: 150px;
+}
+/* set unorder list in manager page*/
+#wenger_ul{
+	margin-top:0;
+	margin-left: 30px;
+	margin-right: 10px;
+	border: 1px solid grey;
+	font-family: Arial;
+	font-size: 100%;
+	line-height: 25px;
+}
+/* set table in manager page*/
+#table_wenger{
+	width: auto;
+	height: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+th,td{
+	padding: 10px;
+	border: 1px solid black;
+}
+th{
+	background-color: grey;
+	color: white;
+}
+/* display list players inline */
+.list_players{
+	margin-bottom: 10px;
+	margin-left:30px;
+}
+.pic_in_paragraph{
+	margin-left: 50px;
+}
+/* set table in achievement page*/
+#honour_table{
+	width: auto;
+	height: auto;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-collapse: collapse;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* set table in achievement page*/
+#european_cup{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 250px;
+}
+#record_ul{
+	line-height: 25px;
+}
+#record_ul li{
+	padding: 10px;
+}
+/* set info and images in contact page*/
+#contact_info, #postal{
+	float: left;
+	margin-left: 50px;
+}
+#contact_centre{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#postal_info{
+	float: left;
+	margin-left: 50px;
+}
+/* set two contact sections*/
+#first_info, #second_info{
+	margin-left: 50px;
+}
+#second_info{
+	margin-top: 50px;
+}
+#text_info{
+	float: left;
+	margin-top: 10px;
+}
+/* set color of link*/
+.paragraph a:link{
+	text-decoration:none;
+}
+/* color of link when the mouse over it*/
+.paragraph a:hover{
+	color: orange;
+}
+/* don't need set color when a link visited, thus I didn't set it*/
